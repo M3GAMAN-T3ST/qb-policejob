@@ -208,8 +208,9 @@ Config.Items = {
         { name = 'armor',              price = 0, amount = 50 },
         { name = 'radio',              price = 0, amount = 50 },
         { name = 'heavyarmor',         price = 0, amount = 50 },
-        { name = 'policepouches',      price = 0, amount = 50 },
-        { name = 'policepouches1',     price = 0, amount = 50 },
+        { name = 'policepouches',      price = 0, amount = 50 }, -- keep-bags
+        { name = 'policepouches1',     price = 0, amount = 50 }, -- keep-bags
+        { name = 'spikestrip',         price = 0, amount = 50 }, -- loaf-spikestrips
     }
 }
 
