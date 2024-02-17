@@ -213,6 +213,8 @@ Config.Items = {
         { name = 'policepouches',      price = 0, amount = 50 }, -- keep-bags
         { name = 'policepouches1',     price = 0, amount = 50 }, -- keep-bags
         { name = 'spikestrip',         price = 0, amount = 50 }, -- loaf-spikestrips
+        { name = "bodycam",            price = 0, amount = 50 }, -- qb-NHSbodycam
+        { name = 'weapon_beanbagshotgun',  price = 0, amount = 50 }, -- qb-beanbagshotgun
     }
 }
 
