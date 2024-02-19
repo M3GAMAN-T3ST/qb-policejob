@@ -120,7 +120,7 @@ QBCore.Commands.Add('grantlicense', Lang:t('commands.license_grant'), { { name =
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     if Player.PlayerData.job.type == 'leo' and Player.PlayerData.job.grade.level >= Config.LicenseRank then
-        if args[2] == "driver" or args[2] == "weapon" or args[2] == "pilot" then -- qb-rentals(pilot)
+        if args[2] == "driver" or args[2] == "weapon" or args[2] == "pilot" or args[2] == "hunting" then -- qb-rentals(pilot)/boii-hunting
             local SearchedPlayer = QBCore.Functions.GetPlayer(tonumber(args[1]))
             if not SearchedPlayer then return end
             local licenseTable = SearchedPlayer.PlayerData.metadata['licences']
@@ -144,7 +144,7 @@ QBCore.Commands.Add('revokelicense', Lang:t('commands.license_revoke'), { { name
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     if Player.PlayerData.job.type == 'leo' and Player.PlayerData.job.grade.level >= Config.LicenseRank then
-        if args[2] == "driver" or args[2] == "weapon" or args[2] == "pilot" then -- qb-rentals(pilot)
+        if args[2] == "driver" or args[2] == "weapon" or args[2] == "pilot" or args[2] == "hunting" then -- qb-rentals(pilot)/boii-hunting
             local SearchedPlayer = QBCore.Functions.GetPlayer(tonumber(args[1]))
             if not SearchedPlayer then return end
             local licenseTable = SearchedPlayer.PlayerData.metadata['licences']
