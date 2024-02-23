@@ -198,6 +198,68 @@ Config.Items = {
                 }
             }
         },
+        {
+            name = "weapon_glock17", -- custom-weapons
+            price = 0,
+            amount = 50,
+            info = {
+                attachments = {
+                    {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
+                }
+            },
+        },
+        {
+            name = "weapon_m4", -- custom-weapons
+            price = 0,
+            amount = 50,
+            info = {
+                attachments = {
+                    {component = "COMPONENT_AT_AR_FLSH", label = "Flashlight"},
+                }
+            },
+        },
+        {
+            name = "weapon_ar15", -- custom-weapons
+            price = 0,
+            amount = 50,
+            info = {
+                attachments = {
+                    {component = "COMPONENT_AT_AR_FLSH", label = "Flashlight"},
+                    {component = "COMPONENT_AT_SCOPE_MEDIUM", label = "Scope"},
+                    {component = "COMPONENT_AT_AR_AFGRIP", label = "AF-Grip"},
+                }
+            },
+        },
+        {
+            name = "weapon_remington", -- custom-weapons
+            price = 0,
+            amount = 50,
+            info = {
+                attachments = {
+                    {component = "COMPONENT_AT_SG_FLSH", label = "Flashlight"},
+                }
+            },
+        },
+        {
+            name = "weapon_scarh", -- custom-weapons
+            price = 0,
+            amount = 50,
+            info = {
+                attachments = {
+                    {component = "COMPONENT_AT_AR_FLSH", label = "Flashlight"},
+                }
+            },
+        },
+        {
+            name = "weapon_mk14", -- custom-weapons
+            price = 0,
+            amount = 50,
+            info = {
+                attachments = {
+                    {component = "COMPONENT_AT_SCOPE_LARGE", label = "Scope"},
+                }
+            },
+        },
         { name = 'weapon_nightstick',  price = 0, amount = 50 },
         { name = 'weapon_flashlight',  price = 0, amount = 50 },
         { name = 'pistol_ammo',        price = 0, amount = 50 },
