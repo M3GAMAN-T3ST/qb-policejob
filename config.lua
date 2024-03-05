@@ -106,6 +106,7 @@ Config.SecurityCameras = {
         [34] = { label = 'Vangelico Jewelery CAM#4', coords = vector3(-622.57, -236.3, 40.31), r = { x = -35.0, y = 0.0, z = 5.78 }, canRotate = true, isOnline = true },
         [35] = { label = "Vangelico's Grapeseed CAM#1", coords = vector3(1645.27, 4886.01, 44.7), r = {x = -35.0, y = 0.0, z = -141.82}, canRotate = true, isOnline = true}, -- don-jewellery
         [36] = { label = "Vangelico's Paleto CAM#1", coords = vector3(-374.46, 6045.52, 34.05), r = {x = -35.0, y = 0.0, z = -105.09}, canRotate = true, isOnline = true}, -- don-jewellery
+        [37] = { label = "Vankhov Jewellers CAM#1", coords = vector3(-1385.38, -296.32, 47.02), r = {x = -35.0, y = 0.0, z = 272.39}, canRotate = true, isOnline = true}, -- don-jewellery
     },
 }
 
